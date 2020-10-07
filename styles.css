@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/97/833/155/mountains-firewatch-green-forest-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px 950px;
+    background-color: burlywood;
+    width: 100vw;
+    height: 100vh;
+  }
+  /* What kind of selector is this? */
+  .logo {
+    width: 250px;
+    height: 200px;
+    margin: 3% 10%;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+  }
+
+  main {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+  }
+
+  /* This is an element within an element selector */ 
+  nav > a {
+    margin: 2% 3% 3%;
+    height: 10%;
+    width: 15%;
+    color: #3CB371;
+    font-family: fantasy;
+    font-size: 22px;
+    border-radius: 25px;
+    background: solid;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+  }
+
+  .has-border {
+    border-radius: 25px;
+    border: 5px dotted green     ;
+    background: none;
+    padding: 18px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 2%;
+  }
+  /* This is an ID selector */
+  #profile-pic {
+    width: 335px;
+    height: 380px;
+    border-radius: 50%;
+    margin: 5% auto;
+    grid-column: 2/3;
+  }
+
+  h1 {
+    color:burlywood;
+    grid-column: 2/3;
+    margin: -1% auto;
+    border-bottom: 2px solid burlywood;;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  h2 {
+    grid-column: 2/3;
+    margin: 4% auto;
+    font-style: oblique;
+    color:burlywood
+  }
+
+  .small-text {
+    grid-column: 2/3;
+    color: burlywood;
+    font-size: 10px;
+    margin: 3% auto;
+  }
+
+  button {
+    grid-column: 2/3;
+    margin: 2% auto;
+    width: 70%;
+    height: 15%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+    border-radius: 25px;
+    background: transparent;
+    padding: 10px;
+    padding-bottom: 5%;
+    text-align: center;
+    color: burlywood;
+    letter-spacing: 10px;
+    font-style: Georgia;
+  }
