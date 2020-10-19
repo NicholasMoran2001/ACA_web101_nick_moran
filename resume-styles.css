@@ -1,6 +1,4 @@
 body {
-  margin:0
-  padding:0
   background: rgb(240, 239, 239);
   font-family: "Poppins", sans-serif; 
 }
@@ -20,9 +18,7 @@ h2 {
 .box {
   background-color: lightgrey;
   width: 50px
-  padding: 3px
-  margin: 1px auto;
-  border-radius: 0.5px
+  border-radius 0.5px
 }
 
 .header {
