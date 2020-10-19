@@ -14,9 +14,8 @@ h2 {
   display: inline;
 }
 
-
 .box {
-  background-color: lightgrey;
+  background-color: #D5F5E3;
   width: 50px
   border-radius 0.5px
 }
