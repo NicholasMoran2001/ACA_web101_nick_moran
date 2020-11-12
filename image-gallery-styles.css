@@ -1,0 +1,41 @@
+.column {
+  display: flex;
+  flex-direction: column;
+  max-width: 22%;
+  padding: 0 1%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #2A2E2B;
+}
+
+.imgs {
+  position: relative;
+  height: auto;
+  width: auto;
+}
+
+.column img {
+  margin-top: 25px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+  padding: 12px;
+}
+
+h1 {
+  font-size: 60px;
+  color: orange;
+}
